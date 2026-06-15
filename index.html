@@ -1,33 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Suresh Kumar | WordPress Developer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suresh Kumar | WordPress Developer</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+background:#0f172a;
+color:#fff;
+padding:80px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+color:#cbd5e1;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#2563eb;
+color:#fff;
+text-decoration:none;
+border-radius:8px;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:60px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:2rem;
+margin-bottom:40px;
+}
+
+.about{
+text-align:center;
+line-height:1.8;
+max-width:800px;
+margin:auto;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.skill{
+background:white;
+padding:20px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:20px;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card p{
+line-height:1.6;
+margin-bottom:15px;
+}
+
+.card a{
+background:#2563eb;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:50px;
+}
+</style>
 </head>
+
 <body>
-    <h1>Suresh Kumar N</h1>
-    <h2>WordPress Developer | Elementor | WooCommerce</h2>
 
-    <h3>About Me</h3>
-    <p>I am a WordPress Developer with experience in creating business and e-commerce websites.</p>
+<header>
+<h1>Suresh Kumar N</h1>
+<p>WordPress Developer | Elementor Expert | WooCommerce Specialist</p>
+<a href="#projects" class="btn">View My Work</a>
+</header>
 
-    <h3>Projects</h3>
+<section class="container">
+<h2 class="section-title">About Me</h2>
+<div class="about">
+<p>
+B.Sc IT graduate with experience designing and developing responsive
+WordPress websites using Elementor and WooCommerce.
+I have successfully delivered corporate and eCommerce websites for real clients.
+</p>
+</div>
+</section>
 
-    <h4>Spintec Engineering</h4>
-    <p><a href="https://spintecengg.com/">Visit Website</a></p>
+<section class="container">
+<h2 class="section-title">Skills</h2>
+<div class="skills">
+<div class="skill">WordPress</div>
+<div class="skill">Elementor</div>
+<div class="skill">WooCommerce</div>
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">Website Migration</div>
+<div class="skill">Hosting & DNS</div>
+<div class="skill">Basic SEO</div>
+</div>
+</section>
 
-    <h4>A1 Sivakasi Crackers</h4>
-    <p><a href="https://a1sivakasicrackers.com/">Visit Website</a></p>
+<section class="container" id="projects">
+<h2 class="section-title">Featured Projects</h2>
 
-    <h3>Skills</h3>
-    <ul>
-        <li>WordPress</li>
-        <li>Elementor</li>
-        <li>WooCommerce</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
+<div class="projects">
 
-    <h3>Contact</h3>
-    <p>Email: your-email@gmail.com</p>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1200" alt="">
+<div class="card-content">
+<h3>Spintec Engineering</h3>
+<p>
+Corporate engineering website developed using WordPress.
+Responsive layout, service pages, contact forms and company profile.
+</p>
+<a href="https://spintecengg.com/" target="_blank">Visit Website</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=1200" alt="">
+<div class="card-content">
+<h3>A1 Sivakasi Crackers</h3>
+<p>
+WooCommerce-based eCommerce website with product catalog,
+mobile optimization and customer enquiry functionality.
+</p>
+<a href="https://a1sivakasicrackers.com/" target="_blank">Visit Website</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+<h3>Let's Work Together</h3>
+<p>Email: yourmail@gmail.com</p>
+<p>© 2026 Suresh Kumar</p>
+</footer>
+
 </body>
 </html>
